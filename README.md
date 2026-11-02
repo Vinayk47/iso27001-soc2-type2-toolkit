@@ -47,6 +47,10 @@ See the [full report](sample/readiness_report.md).
 
 The control mappings are my own working mapping, and the sample sizes are illustrative. In a real audit, the auditor sets the testing approach. See the [guide](docs/type2-readiness-guide.md).
 
+## Author
+
+Built by [Vinay Karamchandani](https://github.com/Vinayk47). Feedback is welcome through [GitHub issues](https://github.com/Vinayk47/iso27001-soc2-type2-toolkit/issues) or [LinkedIn](https://www.linkedin.com/in/vinaykaramchandani/).
+
 ## License
 
 MIT
