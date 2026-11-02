@@ -1,0 +1,8 @@
+risk_id,risk,likelihood,impact,score,treatment,linked_controls,owner
+R-01,Former staff keep access to production,2,5,10,Reduce,IAM-02;IAM-04,IT Manager
+R-02,Account takeover through stolen credentials,3,5,15,Reduce,IAM-01;IAM-03;LOG-01,Security Lead
+R-03,Unreviewed change causes customer outage,3,4,12,Reduce,CHG-01,Engineering Lead
+R-04,Backups cannot be restored after ransomware,2,5,10,Reduce,BCK-01;BCP-01,Infrastructure Lead
+R-05,Known critical vulnerability is left unpatched,3,4,12,Reduce,VUL-01,Security Lead
+R-06,Critical vendor has a security failure,2,4,8,Transfer,VEN-01,Procurement Lead
+R-07,Staff fall for phishing,4,3,12,Reduce,HR-02;IAM-01,Security Lead

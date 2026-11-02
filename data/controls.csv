@@ -1,0 +1,19 @@
+control_id,title,iso27001_2022,soc2_tsc,frequency,evidence_expected
+GOV-01,Security policies reviewed and approved,A.5.1,CC5.3,annual,Signed policy approval record
+GOV-02,Management review of the ISMS,Clause 9.3,CC4.2,annual,Management review minutes and actions
+RSK-01,Risk assessment performed,Clause 6.1.2,CC3.2,annual,Updated risk register with owner sign-off
+AUD-01,Internal audit completed,Clause 9.2,CC4.1,annual,Internal audit report and corrective actions
+HR-01,Background screening before start date,A.6.1,CC1.4,event,Screening completion record for each hire
+HR-02,Security awareness training completed,A.6.3,CC1.4;CC2.2,annual,Training completion export
+IAM-01,MFA enforced on in-scope systems,A.8.5,CC6.1,quarterly,Identity provider configuration export
+IAM-02,User access reviews completed,A.5.18,CC6.2;CC6.3,quarterly,Signed access review with remediation
+IAM-03,Privileged access reviewed,A.8.2,CC6.3,quarterly,Admin account list with reviewer approval
+IAM-04,Access removed on termination,A.5.18;A.6.5,CC6.2;CC6.3,event,Ticket showing removal date for each leaver
+VUL-01,Vulnerability scans reviewed,A.8.8,CC7.1,monthly,Scan report and remediation tickets
+LOG-01,Security logs reviewed,A.8.15;A.8.16,CC7.2,monthly,Signed log or alert review record
+INC-01,Incident response plan tested,A.5.24;A.5.26,CC7.3;CC7.4,annual,Tabletop exercise report
+CHG-01,Production changes approved before release,A.8.32,CC8.1,event,Change ticket with approval and test result
+BCK-01,Backup restore tested,A.8.13,A1.2;A1.3,quarterly,Restore test result
+BCP-01,Disaster recovery plan tested,A.5.30,CC7.5;CC9.1;A1.3,annual,Recovery test report
+VEN-01,Critical vendors assessed,A.5.19;A.5.22,CC9.2,annual,Vendor reviews including SOC 2 report review
+CRY-01,Encryption configuration verified,A.8.24,CC6.1;CC6.7,annual,Encryption configuration export
